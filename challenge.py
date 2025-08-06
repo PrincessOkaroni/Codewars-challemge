@@ -9,3 +9,13 @@ def create_dict(keys, values):
         
     return result
 
+# Challenge 1 Grasshopper
+
+def greet(name, owner):
+    if name == owner :
+      return "Hello boss"
+    else :
+      return "Hello guest"
+    
+print(greet("Mohamed", "Mohamed"))
+#greet(name="Ahmed", owner="Mohamed")
