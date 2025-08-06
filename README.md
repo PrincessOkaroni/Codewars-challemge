@@ -19,10 +19,17 @@ keys = ['a'], values = [1,2,3]
 
  ## Pseudocode
  - function createDict(keys,values):
+
     initialize empty dictionary result
+
     for index from 0 to length of keys
+
      if index < length of values;
+
        result[keys[index]]=values[index]
+
     else:
+
        result[keys[index]]= None
+       
    Return result
