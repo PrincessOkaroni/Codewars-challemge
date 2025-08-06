@@ -19,3 +19,13 @@ def greet(name, owner):
     
 print(greet("Mohamed", "Mohamed"))
 #greet(name="Ahmed", owner="Mohamed")
+
+
+# Challenge 5 Needle
+def findNeedle(haystack):
+    index = haystack.index("needle")
+   # return index
+    return f"found the needle at position {index}"   
+
+haystack = ['junk', 'hay', 'more junk', 'shovel', 'needle', 'random stuff']
+print(findNeedle(haystack))
